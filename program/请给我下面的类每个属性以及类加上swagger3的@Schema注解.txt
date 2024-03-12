@@ -1,0 +1,22 @@
+请给我下面的类每个属性以及类加上swagger3的@Schema注解
+
+swagger的@Schema注解无法识别T传递的实际类型，比如我有一个类
+public class JsonResult<T> {
+
+
+    /**
+     * 响应结果
+     */
+    @Schema(description = "响应结果")
+    private T data;
+}
+
+在一个controller中如此使用：
+    public JsonResult<TestGroup> get(@PathVariable("id") String id) {
+
+        TestGroup group = testGroupService.getById(id);
+        return JsonResult.success(group);
+
+    }
+
+在swagger文档中无法展示 TestGroup 的属性，而是一个Object，该怎么解决

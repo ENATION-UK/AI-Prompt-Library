@@ -1,0 +1,14 @@
+帮我把下面类的每个属性加上@Schema注解，描述要中文的
+@Schema(description = "交易审核DTO")
+public class TradeAuthDTO {
+
+ 
+    private String tradeSn;
+    private Integer isPass;
+    private String remark;
+    private Long memberId;
+
+    private Integer paymentType;
+
+    private String memberName;
+}    

@@ -1,0 +1,14 @@
+字串格式化，下面字串每一行一个单词，单次加上双引号，用逗号隔开，为一行
+consumer
+distribution-service
+framework
+gateway-service
+goods-service
+javashop-core
+member-service
+payment-service
+promotion-service
+spring-cloud-impl
+statistics-service
+system-service
+trade-service

@@ -1,0 +1,10 @@
+请为这个枚举类加上别名的属性
+
+public enum ActionType {
+
+    WIN_OPEN_WINDOW,
+    UI_INPUT,
+    UI_CLICK,
+    UI_CHANGE,
+    UI_SELECT
+}

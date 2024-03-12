@@ -1,0 +1,26 @@
+下面的类请帮我加上@Value注解，以便可以读取application.yml中的配置,配置是以WechatPay开头
+@Data
+public class WechatPayConfig implements Serializable {
+
+
+    private static final long serialVersionUID = 1079001522469541228L;
+
+    /** 商户号 */
+    public String merchantId;
+
+    /** 商户API证书私钥内容 */
+    public String privateKey;
+
+    /** 商户API证书序列号 */
+    public String merchantSerialNumber;
+
+    /** 微信支付平台API证书内容 */
+    public String wechatPayCertificate;
+
+    /** 微信支付 APIv3 密钥 */
+    public String apiV3Key;
+
+    /** 应用ID */
+    public String appId;
+
+}

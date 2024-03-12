@@ -1,0 +1,23 @@
+请按这个结构帮我生成Java领域模型对象，嵌套部分使用内部类的方式：
+{
+  companyName: 'xxxx',
+  billAddress: {
+    name: '',
+    firstName: '',
+    lastName: '',
+    address: {
+      line1: '',
+      line2: '',
+      city: '',
+      state: '',
+      postal_code: '',
+      country: ''
+    },
+    phone: '';
+  },
+  email: '',
+  tax: {
+    taxType: '',
+    taxId: ''
+  }
+}
